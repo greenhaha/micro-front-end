@@ -1,0 +1,20 @@
+{
+  "name": "micro-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:main": "cd qiankun && yarn",
+    "start:main": "cd qiankun && yarn serve",
+    "install:react": "cd qiankun-react && yarn",
+    "start:react": "cd qiankun-react && yarn start",
+    "install:vue": "cd qiankun-vue && yarn",
+    "start:vue": "cd qiankun-vue && yarn serve",
+    "install:angular": "cd qiankun-angular && yarn",
+    "start:angular": "cd qiankun-angular && yarn start",
+    "install:static": "cd qiankun-static && yarn",
+    "start:static": "cd qiankun-static && yarn start"
+  },
+  "author": "",
+  "license": "ISC"
+}
